@@ -1,0 +1,65 @@
+*,
+html
+{
+ padding: 0;
+ margin: 0;
+ font-family: monospace, Lucida console;   
+}
+
+body
+{
+    background: #faf6f9;
+}
+
+.content-h1
+{
+    transition: .3s ease-in-out;
+
+}
+
+.content-h1:hover
+{
+    transition: .3s ease-in-out;
+    background: #fff1e6;
+    text-decoration: underline; 
+}
+
+.content-img
+{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.imaje
+{
+    border-radius: 20px;
+    transition: .3s ease-in-out;
+    filter: blur(1px);
+}
+
+.imaje:hover
+{
+    content: url(./asset/img/patimura-removebg-preview.png);
+    filter: blur(0px);
+    filter: drop-shadow(10px solid)
+    transition: .3s ease-in-out;
+}
+
+.content-text
+{
+    
+}
+
+.det-content1
+{
+    
+}
+
+.cont-h3
+{
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}

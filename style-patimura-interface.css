@@ -1,0 +1,119 @@
+*,
+html
+{
+    padding: 0;
+    margin: 0;
+    font-family: monospace, Lucida console;
+}
+
+body
+{
+    
+}
+
+.background
+{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./asset/img/Hydrangeas.jpg);
+    background-size: cover;
+    position: center;
+    filter: blur(2px);
+    z-index: -1;
+}
+
+
+/* navbar atas */
+div.container-navbar
+{
+    
+}
+
+.ul-navbar
+{
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li
+{
+    float: left;
+}
+
+.ul-navbar a
+{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: .3s ease-in-out;
+}
+
+.ul-navbar a:hover
+{
+    background-color: #111;
+    transition: .3s ease-in-out;
+}
+/* navbar atas end */
+
+/* content */
+div.responsive
+{
+    
+}
+
+div.gallery:hover
+{
+    /* border: 1px solid #777; */
+    
+}
+
+
+div.gallery
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.imaje
+{
+    border-radius: 30px;
+    width: 100px;
+    box-shadow: 10px 10px 6px  rgb(0, 0, 0);
+}
+
+
+div.desc a
+{
+    font-size: 20px;
+    text-shadow: 2px 2px 1px rgb(0, 0, 0);
+    color:rgb(255, 255, 255);
+    text-decoration: underline;
+    padding: 15px;
+    text-align: center;
+}
+
+.wisata-cirebon
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-wisata
+{
+
+    border-radius: 30px;
+    width: 200px;
+    box-shadow: 10px 10px 6px  rgb(0, 0, 0);
+}
